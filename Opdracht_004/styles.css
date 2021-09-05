@@ -1,0 +1,33 @@
+body { 
+    color: rgb(36, 33, 33);
+    background-color: rgb(148, 157, 177);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.black-border {
+    border: 1px solid black;
+    border-style: dotted;
+}
+
+#green-background {
+    background-color: rgb(73, 64, 204);
+    border: 1px solid black;
+    border-style: dotted;
+}
+
+h1 {
+    text-align: center;
+    color: cornsilk;
+    background-color: rgb(73, 64, 204);
+}
+
+h2 {
+    text-decoration-color: cornsilk;
+    color: cornsilk;
+    text-shadow: darkblue;
+}
+
+.stamp {
+	
+    border: 5px dashed #1b1a19; 
+}
