@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Welkom bij "Guess the number" game.</p>
+
+<button onclick="myFunction()">Probeer uit</button>
+
+<p id="demo"></p>
+
+<script>
+
+
+function getRndInteger(number) {
+    return Math.floor(Math.random() * 25) + 1;
+     
+}
+
+function myFunction() {
+  var person = prompt("Welkom! Wat is je naam?", "Type hier je naam");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hoi " + person ;
+    
+  }
+  var number = prompt("Voer een nummer in van 0 tot 25 om te beginnen met raden...", "Type hier je getal");
+  if (number == getRndInteger()) {
+    document.getElementById("demo").innerHTML =
+    "Gefeliciteerd je hebt gewonnen " + number + " is het nummer! Het spel is nu af." + "<br><br><br>" + "Dag " + person+  "<br><br><br>" +"Tot de volgende keer.";
+    } else {
+    document.getElementById("demo").innerHTML =
+    "Dat is niet correct, probeer het nog een keertje " + person + "  !";
+
+  }
+  
+}
+
+
+</script>
+
+</body>
+</html>
+
+
