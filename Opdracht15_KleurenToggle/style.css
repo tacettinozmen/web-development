@@ -1,0 +1,44 @@
+.li-default {
+    background-color: #ffffff;
+}
+
+body {
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #f1f1f1;
+}
+
+.btn-toggle-nav {
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    background-image: url("/img/menu.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.nav-sidebar {
+    width: 100px;
+}
+
+.nav-sidebar ul {
+    list-style-position: inside;
+    list-style: none;
+    padding: 0px;
+    width: 200px;
+    visibility: hidden;
+}
+
+.nav-sidebar li {
+    border: 3px solid black;
+    width: 150px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-sidebar ul li:hover{
+    background-color: #ddd;
+}
